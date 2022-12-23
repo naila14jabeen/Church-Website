@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500;1,700&display=swap');
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    background: url('/image.jpg');
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 100vw;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+
+}
+.container p{
+    font-size: 30px;
+}
+.container h1{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.container h3{
+    font-style: italic;
+}
+.container a{
+    background-color:#E74C3C;
+    color: white;
+    padding: 8px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+    /* here is our second container starts */
+.faith{
+    background-color:#FFFFFF;
+    /* height: 85vh;
+    width: 100vw;   */
+}
+.faith h1{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+    padding: 35px 50px;
+    gap: 25px
+}
+.container-2 i{
+    color:#E74C3C;
+    font-size: 50px;
+    padding: 20px;
+}
+.user-1{
+    width: 300px;
+    line-height: 1.5;
+}
+/* Now Third Container starts */
+.container-3{
+    display: flex;
+    background-color: #E74C3C;
+    gap: 20px;
+    align-items: center; 
+    justify-content: space-between;
+    padding-right: 230px;
+}
+.first{
+    margin-left: 50px;
+    color: white;
+    padding: 50px 120px;
+
+}
+.first i{
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.first h5{
+    font-weight: bold;
+}
+.second{
+    border-left: 1px solid white;
+    padding-left: 15px;
+}
+.second i{
+    color: white;
+    font-style: italic;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.btn{
+    padding: 10px;
+    border:4px solid white;
+    border-radius: 4px;
+    color: white;
+    background-color:#E74C3C;
+    font-weight: bold;
+}
+/* here is the 4th container starts */
+
+.container-4{
+    background-color: #EEEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px 15px; */
+    gap: 25px;
+    /* padding-top: 30px;
+    padding-bottom: 20px; */
+    padding-left: 130px;
+    padding-right: 130px;;
+
+}
+.left{
+    width: 55%;
+    height: 200px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    
+}
+.left h4{
+    margin-bottom: 15px;
+}
+.left i{
+    display: block;
+    color: #E74C3C;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 14px;
+    
+}
+.left i span{
+    color: #000;
+    font-weight: lighter;
+}
+.left i p{
+    display: inline;
+}
+.left-2{
+    background-color: #E74C3C;
+    width: 45%;
+    height: 200px;
+    display: flex;
+    /* align-items: center; */
+    color: white;
+    /* justify-content: center; */
+    padding: 70px;
+    gap: 20px;
+    margin-top: 70px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+   
+}
+.left-2 div{
+
+    border-right: 2px solid white;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px;
+}
+.lastDiv{
+    /* text-align: center; */
+    margin-top: 60px;
+
+}
+.lastDiv h2{
+    font-weight: bold; 
+    font-size: 30px;
+    text-align: center;
+}
+.innerDiv{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+.firstDiv{
+    height: 100px;
+    width: 300px;
+    
+}
+p.bold{
+    margin-top: 5px;
+    padding-left: 30pxpx;
+
+}
+.para{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.firstDiv img{
+    height: 150px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+.firstDiv i{
+    font-style: italic;
+    color: #E74C3C;
+    /* display: block; */
+    margin-bottom: 10px;
+}
+
+.firstDiv i p{
+    color: #E74C3C;
+    display: inline;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+.firstDiv i span{
+    color: #000;
+    font-weight: lighter;
+}
+.firstDiv p{
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.st{
+    display: block;
+}
